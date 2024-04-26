@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+  <head>
+    <title>form</title>
+    <style>
+      input {
+        margin-left: 20px;
+        margin-top: 5px;
+      }
+      .pass {
+        margin-left: 23px;
+      }
+      .city {
+        margin-left: 2px;
+      }
+      .web {
+        margin-left: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Novell Service Login</h2>
+
+      <form action="">
+        <label for="">Username: </label>
+        <input type="text" /><br />
+
+        <label for="">Password:</label>
+        <input type="password" class="pass" /><br />
+
+        <label for=""
+          >city of <br />
+          Employment:</label
+        >
+        <input type="text" class="city" /><br /><br />
+
+        <label for="">Web server:</label>
+        <select class="web">
+          <option value="#">-choose a server-</option></select
+        ><br /><br />
+        <table>
+          <tr>
+            <td>
+              <p>Please specify <br />your roll:</p>
+            </td>
+            <td>
+              <input type="radio"  name="radio"/>
+              <label for="">Admin</label><br />
+
+              <input type="radio"   name="radio" />
+              <label for="">Engineer</label><br />
+              <input type="radio"   name="radio" />
+              <label for="">Manager</label><br />
+              <input type="radio"   name="radio" />
+              <label for="">Guest</label>
+            </td>
+          </tr>
+        </table>
+        <br />
+        <table>
+          <tr>
+            <td>
+              <p>Single sign-on <br />to the following:</p>
+            </td>
+            <td>
+              <input type="checkbox" name="checks" />
+              <label for="">Mail</label><br />
+              <input type="checkbox" name="checks" />
+              <label for="">Payroll</label><br />
+              <input type="checkbox" name="checks" />
+              <label for="">Self-service</label><br />
+            </td>
+          </tr>
+        </table>
+        <input type="button" value="Login">
+        <input type="reset">
+        
+      </form>
+    </div>
+  </body>
+</html>
